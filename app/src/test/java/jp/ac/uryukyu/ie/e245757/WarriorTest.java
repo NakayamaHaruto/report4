@@ -16,9 +16,9 @@ public class WarriorTest {
      */
     @Test
     void attackWithWeponSkillTest(){
-        int numberAttempts = 3;
-        int defaultWarriorAt = 10;
-        int defaultSlimeHp = 100;
+        int numberAttempts = 3;//試行回数
+        int defaultWarriorAt = 10;//デフォルトの攻撃力
+        int defaultSlimeHp = 100;//デフォルトの体力
         Warrior demoWarrior = new Warrior("デモ戦士", 100, defaultWarriorAt);
         Enemy slime = new Enemy("スライムもどき", defaultSlimeHp, 100);
         for (int i = 0; i < numberAttempts; i++){

@@ -7,7 +7,7 @@ package jp.ac.uryukyu.ie.e245757;
  *  boolean dead; //敵の生死状態。true=死亡。
  * Created by tnal on 2016/11/13.
  */
-public class Warrior extends LivingThing{
+public class Warrior extends Hero{
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
